@@ -54,7 +54,7 @@ public class HomePageTest {
 
         // Find the Popular Model link
         WebElement popularModel = driver.findElement(By.cssSelector("img.img-fluid[src='/img/cars/giulia.png'][title='Guilia Quadrifoglio']"));
-        // WebElement overallRatings = driver.findElement(By.cssSelector("img.img-fluid[src='/img/overall.jpg']"));
+       
 
         // Navigate to Popular Model page
         popularModel.click();
